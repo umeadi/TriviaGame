@@ -15,3 +15,8 @@
 // Eric suggested to place each question in an object, and identify the correct answer within the object
 
 
+
+
+$("#start").on("click",function(){
+    console.log("You Clicked me!");
+})
