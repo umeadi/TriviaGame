@@ -11,3 +11,7 @@
 // * Don't let the player pick more than one answer per question.
 
 // * Don't forget to include a countdown timer.
+
+// Eric suggested to place each question in an object, and identify the correct answer within the object
+
+
