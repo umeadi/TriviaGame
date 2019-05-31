@@ -1,5 +1,3 @@
-// ![Basic](Images/1-basic.jpg)
-
 // **[Click Here to Watch the Demo](https://youtu.be/fBIj8YsA9dk)**.
 
 // * You'll create a trivia form with multiple choice or true/false options (your choice).
@@ -112,7 +110,7 @@ var game = {
 
         this.result();
     },
-
+    // Function to update html on page to reflect results
     result: function () {
         clearInterval(timer);
         $("#subbg h2").remove();
