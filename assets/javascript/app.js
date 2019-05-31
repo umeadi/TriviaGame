@@ -18,5 +18,27 @@
 
 
 $("#start").on("click",function(){
-    console.log("You Clicked me!");
+    $("#subwrapper").remove();
 })
+
+var questions = [{
+    question:"Where did Tony Stark build his first Iron Man suit?",
+    answers:["On an island", "In his garage", "In a cave...with a box of scraps"],
+    correctAnswer:"In a cave...with a box of scraps"
+}, {
+    question:"Where did Tony Stark build his first Iron Man suit?",
+    answers:["On an island", "In his garage", "In a cave...with a box of scraps"],
+    correctAnswer:"In a cave...with a box of scraps"
+}, {
+    question:"Where did Tony Stark build his first Iron Man suit?",
+    answers:["On an island", "In his garage", "In a cave...with a box of scraps"],
+    correctAnswer:"In a cave...with a box of scraps"
+}, {
+    question:"Where did Tony Stark build his first Iron Man suit?",
+    answers:["On an island", "In his garage", "In a cave...with a box of scraps"],
+    correctAnswer:"In a cave...with a box of scraps"
+}, {
+    question:"Where did Tony Stark build his first Iron Man suit?",
+    answers:["On an island", "In his garage", "In a cave...with a box of scraps"],
+    correctAnswer:"In a cave...with a box of scraps"
+}];
