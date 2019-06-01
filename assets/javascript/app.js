@@ -73,35 +73,37 @@ var game = {
     // Answer Checker Functions
     done: function () {
         $.each($("input[name='question-0']:checked"), function () {
-            if ($(this).val() == questions[0].correctAnswer) {
+            // console.log($(this).val() + questions[0].correctAnswer)
+            
+            if ($(this).val().trim() === questions[0].correctAnswer) {
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-1']:checked"), function () {
-            if ($(this).val() == questions[1].correctAnswer) {
+            if ($(this).val().trim() === questions[1].correctAnswer) {
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-2']:checked"), function () {
-            if ($(this).val() == questions[2].correctAnswer) {
+            if ($(this).val().trim() === questions[2].correctAnswer) {
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-3']:checked"), function () {
-            if ($(this).val() == questions[3].correctAnswer) {
+            if ($(this).val().trim() === questions[3].correctAnswer) {
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
         $.each($("input[name='question-4']:checked"), function () {
-            if ($(this).val() == questions[4].correctAnswer) {
+            if ($(this).val().trim() === questions[4].correctAnswer) {
                 game.correct++;
             } else {
                 game.incorrect++;
