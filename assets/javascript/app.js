@@ -66,7 +66,7 @@ var game = {
         for (var i = 0; i < questions.length; i++) {
             $("#subbg").append("<h2>" + questions[i].question + "<h2>");
             for (var q = 0; q < questions[i].answers.length; q++) {
-                $("#subbg").append("<input type='radio' name='question-" + i + "'value='" + questions[i].answers[q] + "'>" + questions[i].answers[q])
+                $("#subbg").append("<input type='radio' name='question-" + i + "' value='" + questions[i].answers[q] + "'>" + questions[i].answers[q])
             }
         }
     },
